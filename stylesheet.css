@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #5ab4c0, #255b61); /* Gradient from light blue to darker blue */
+    display: flex;
+    justify-content: center;        
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+    
+
+
+.calculator {
+    background-color: #2828551c;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.411);
+    padding: 20px;
+    width: 260px;
+    text-align: center;
+}
+
+input {
+    width: 92%;
+    height: 40px;
+    font-size: 24px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: right;
+    border: 2px solid #00bcd4; /* Light blue border */
+    border-radius: 5px;
+    background-color: #979eff; /* Very light blue background */
+    color: black;
+    box-shadow: black;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    background-color: #80deea; /* Lighter blue for default buttons */
+    font-size: 20px;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: rgb(0, 0, 0);
+    box-shadow: black;
+}
+
+button:hover {
+    background-color: #4dd0e1; /* Slightly darker blue when hovered */
+}
+
+button:active {
+    background-color: #26a69a; /* Even darker blue when clicked */
+}
+
+button:focus {
+    outline: none;
+}
+
+button.operator {
+    background-color: #4dd0e1; /* Lighter blue for operator buttons */
+}
+
+button.operator:hover {
+    background-color: #26a69a; /* Slightly darker blue on hover for operator buttons */
+}
+
+button.operator:active {
+    background-color: #00796b; /* Darker blue when operator is clicked */
+}
+
+button.clear {
+    background-color: #f44336; /* Red color for clear button */
+}
+
+button.clear:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+}
+
+button.clear:active {
+    background-color: #c62828; /* Darker red when clicked */
+}
