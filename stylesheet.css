@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom, #000000, #255b61); /* Gradient from light blue to darker blue */
+    background: linear-gradient(to bottom, #5ab4c0, #255b61); /* Gradient from light blue to darker blue */
     display: flex;
     justify-content: center;        
     align-items: center;
